@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poi.Data", "Poi.Data\Poi.Data.csproj", "{490DD5C1-0D5F-4660-BEB4-0C97FAA8B5B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poi.Services", "Poi.Services\Poi.Services.csproj", "{4828D8D1-7512-45B0-94F1-99AD019B07A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poi.Web", "WebApplication1\Poi.Web.csproj", "{C6CBA112-1079-4261-8086-D57C96206A53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{490DD5C1-0D5F-4660-BEB4-0C97FAA8B5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490DD5C1-0D5F-4660-BEB4-0C97FAA8B5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490DD5C1-0D5F-4660-BEB4-0C97FAA8B5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490DD5C1-0D5F-4660-BEB4-0C97FAA8B5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4828D8D1-7512-45B0-94F1-99AD019B07A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4828D8D1-7512-45B0-94F1-99AD019B07A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4828D8D1-7512-45B0-94F1-99AD019B07A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4828D8D1-7512-45B0-94F1-99AD019B07A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CBA112-1079-4261-8086-D57C96206A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CBA112-1079-4261-8086-D57C96206A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CBA112-1079-4261-8086-D57C96206A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CBA112-1079-4261-8086-D57C96206A53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A63BFD23-181D-4E2A-A080-620D99BBC06B}
+	EndGlobalSection
+EndGlobal
