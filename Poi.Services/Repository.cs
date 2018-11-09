@@ -9,9 +9,9 @@ namespace Poi.Services
     {
         private readonly PoiContext dbContext;
 
-        public Repository()
+        public Repository(PoiContext dbContext)
         {
-            this.dbContext = new PoiContext();
+            this.dbContext = dbContext;
             this.dbContext.Database.EnsureCreated();
 
         }

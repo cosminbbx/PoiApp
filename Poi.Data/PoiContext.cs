@@ -10,10 +10,9 @@ namespace Poi.Data
         public DbSet<PointOfInterest> Pois { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
+            
                 optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=Sem6;Trusted_Connection=True;");
-            }
+            
         }
     }
 }
